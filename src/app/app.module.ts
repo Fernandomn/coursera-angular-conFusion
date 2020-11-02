@@ -9,11 +9,14 @@ import { AppComponent } from './app.component';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
-import { MatListModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatGridListModule, MatListModule } from '@angular/material';
 
 const materialImportsArray = [
   MatToolbarModule,
-  MatListModule
+  MatListModule,
+  MatGridListModule,
+  MatCardModule,
+  MatButtonModule
 ];
 
 @NgModule({
